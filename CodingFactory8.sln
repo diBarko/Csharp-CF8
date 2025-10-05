@@ -17,6 +17,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExpressionsApp", "Expressio
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EurosToDollars", "EurosToDollars\EurosToDollars.csproj", "{D0ED3127-36DC-42E7-B703-2B3C3D49B8C1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GradesApp", "GradesApp\GradesApp.csproj", "{2F7679D4-EEA7-4488-A703-3488C25CC266}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TernaryApp", "TernaryApp\TernaryApp.csproj", "{C4DA36F5-E9EB-4E67-ABE4-8C97F847C225}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +55,14 @@ Global
 		{D0ED3127-36DC-42E7-B703-2B3C3D49B8C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D0ED3127-36DC-42E7-B703-2B3C3D49B8C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D0ED3127-36DC-42E7-B703-2B3C3D49B8C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F7679D4-EEA7-4488-A703-3488C25CC266}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F7679D4-EEA7-4488-A703-3488C25CC266}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F7679D4-EEA7-4488-A703-3488C25CC266}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F7679D4-EEA7-4488-A703-3488C25CC266}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4DA36F5-E9EB-4E67-ABE4-8C97F847C225}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4DA36F5-E9EB-4E67-ABE4-8C97F847C225}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4DA36F5-E9EB-4E67-ABE4-8C97F847C225}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4DA36F5-E9EB-4E67-ABE4-8C97F847C225}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

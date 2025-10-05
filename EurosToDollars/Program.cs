@@ -10,22 +10,22 @@ namespace EurosToDollars
     {
         static void Main(string[] args)
         {
-            const decimal RATE = 1.07654m;
-            decimal totalCents = 0;
-            decimal dollars = 0;
-            decimal cents = 0;
-
+            const decimal RATE = 1.07m;
+            
             Console.WriteLine("Εισάγετε ποσό σε € :");
             if (!decimal.TryParse(Console.ReadLine(), out decimal euros))
             {
                 Console.WriteLine("Error in input.");
                 return;
             }
-            totalCents = euros * RATE * 100;
-            dollars = totalCents / 100;
-            cents = totalCents % 100;
 
-            Console.WriteLine($"\u20AC{euros:N2} αντιστοιχούν σε \u0024{dollars:N0},{cents,2:N0}cents");
+            decimal converted = euros * RATE;
+            int totalCents = (int)Math.Round(converted * 100, MidpointRounding.AwayFromZero);
+            int dollars = totalCents / 100;
+            int cents = totalCents % 100;
+
+            Console.OutputEncoding = Encoding.UTF8;
+            Console.WriteLine($"\u20AC{euros:F2} αντιστοιχούν σε \u0024{dollars:N0},{cents,2:N0}cents");
         }
     }
 }
