@@ -33,6 +33,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ForApp", "ForApp\ForApp.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnhancedForApp", "EnhancedForApp\EnhancedForApp.csproj", "{1A17635B-B1AE-4F2D-8EAC-54BA8C035BEC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormatExceptionApp", "FormatExceptionApp\FormatExceptionApp.csproj", "{C43A7294-448E-47ED-BA9D-B7B1488423EF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +101,10 @@ Global
 		{1A17635B-B1AE-4F2D-8EAC-54BA8C035BEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1A17635B-B1AE-4F2D-8EAC-54BA8C035BEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1A17635B-B1AE-4F2D-8EAC-54BA8C035BEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C43A7294-448E-47ED-BA9D-B7B1488423EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C43A7294-448E-47ED-BA9D-B7B1488423EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C43A7294-448E-47ED-BA9D-B7B1488423EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C43A7294-448E-47ED-BA9D-B7B1488423EF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
