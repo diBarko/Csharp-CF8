@@ -35,6 +35,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnhancedForApp", "EnhancedF
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormatExceptionApp", "FormatExceptionApp\FormatExceptionApp.csproj", "{C43A7294-448E-47ED-BA9D-B7B1488423EF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DigitsCountApp", "DigitsCountApp\DigitsCountApp.csproj", "{0B196E99-97AE-45E7-A429-8780996C3551}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SwapApp", "SwapApp\SwapApp.csproj", "{C1A7D536-7344-4DF4-9C56-C79DCC87CA3F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -105,6 +109,14 @@ Global
 		{C43A7294-448E-47ED-BA9D-B7B1488423EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C43A7294-448E-47ED-BA9D-B7B1488423EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C43A7294-448E-47ED-BA9D-B7B1488423EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B196E99-97AE-45E7-A429-8780996C3551}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B196E99-97AE-45E7-A429-8780996C3551}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B196E99-97AE-45E7-A429-8780996C3551}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B196E99-97AE-45E7-A429-8780996C3551}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1A7D536-7344-4DF4-9C56-C79DCC87CA3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1A7D536-7344-4DF4-9C56-C79DCC87CA3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1A7D536-7344-4DF4-9C56-C79DCC87CA3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1A7D536-7344-4DF4-9C56-C79DCC87CA3F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
