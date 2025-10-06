@@ -26,7 +26,6 @@ namespace StrHelperMethods
             string[] words = str1.Split(','); // ["Hello", " World!"]
             string[] tokens = Regex.Split(str1, @"\W+"); // ["Hello", "World"]
 
-
             string replaced = str1.Replace("World", "C#"); // "Hello, C#!"
             string replacedRegex = Regex.Replace(str1, @"\s+", "_"); // "Hello,_World!"
 
@@ -44,16 +43,12 @@ namespace StrHelperMethods
             bool isNullOrEmpty = string.IsNullOrEmpty(str1); // false
             bool isNullOrWhiteSpace = string.IsNullOrWhiteSpace("   "); // true
 
-
             string padded = str1.PadLeft(20).PadRight(25, '*'); // "       Hello, World!*****"
-
 
             string joined1 = string.Concat(str1, " ", str2); // "Hello, World!   Hello, C#!  "
             string joined2 = str1 + " " + str2; // "Hello, World!   Hello, C#!  "
 
             string reversed = new string(str1.Reverse().ToArray()); // "!dlroW ,olleH"
-
-
         }
     }
 }
