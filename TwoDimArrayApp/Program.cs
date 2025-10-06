@@ -19,6 +19,20 @@
                 }
                 Console.WriteLine();
             }
+
+            int[][] jagged = new int[2][];
+            jagged[0] = new int[4] { 1, 2, 3, 4 };
+            jagged[1] = new int[5] { 2, 3, 4, 5, 6 };
+
+            foreach (int[] row in jagged)
+            {
+                foreach (int item in row)
+                {
+                    Console.Write(item + " ");
+                }
+                Console.WriteLine();
+            }
+
         }
     }
 }
