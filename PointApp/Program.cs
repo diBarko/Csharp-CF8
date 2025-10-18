@@ -18,5 +18,17 @@ namespace PointApp
             Console.WriteLine($"point4: ${point4}");
             Console.WriteLine($"point5: ${point5}");
         }
+
+        // Polymorphic method, because param is polymorphic so @runtime any param IS-A Point.
+        // Because parameters reference is resolved @runtime, it knows which Move5() to call.
+        public static void DoMove5(Point p)
+        {
+            p.Move5();
+        }
+
+        public static void DoPrint(Point p)
+        {
+            Console.WriteLine(p);   // ToString() is invoked due to WriteLine being contextual method waiting string.
+        }
     }
 }
