@@ -65,6 +65,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RegExApp", "RegExApp\RegExA
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MethodsApp", "MethodsApp\MethodsApp.csproj", "{2A91F2DD-13D6-4398-A911-AB40F97D7C27}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentApp", "StudentApp\StudentApp.csproj", "{C0DB45E7-9181-41F8-A3C8-ADC0C8BA41C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccountApp", "AccountApp\AccountApp.csproj", "{84DAD5DB-3C0E-4561-BB14-7243CA5F9192}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -195,6 +199,14 @@ Global
 		{2A91F2DD-13D6-4398-A911-AB40F97D7C27}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2A91F2DD-13D6-4398-A911-AB40F97D7C27}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2A91F2DD-13D6-4398-A911-AB40F97D7C27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0DB45E7-9181-41F8-A3C8-ADC0C8BA41C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0DB45E7-9181-41F8-A3C8-ADC0C8BA41C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0DB45E7-9181-41F8-A3C8-ADC0C8BA41C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0DB45E7-9181-41F8-A3C8-ADC0C8BA41C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84DAD5DB-3C0E-4561-BB14-7243CA5F9192}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84DAD5DB-3C0E-4561-BB14-7243CA5F9192}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84DAD5DB-3C0E-4561-BB14-7243CA5F9192}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84DAD5DB-3C0E-4561-BB14-7243CA5F9192}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
