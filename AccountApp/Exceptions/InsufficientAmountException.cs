@@ -8,8 +8,9 @@ namespace AccountApp.Exceptions
 {
     internal class InsufficientAmountException : Exception
     {
-        public InsufficientAmountException() : base("Insufficient amount for the transaction")
-        {   // base is like super() in java
+        public InsufficientAmountException()
+            : base("Insufficient amount for the transaction")
+        {  // base is like super() in java
         }
 
         public InsufficientAmountException(string message) : base(message)
