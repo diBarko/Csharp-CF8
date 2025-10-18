@@ -75,6 +75,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FractionApp", "FractionApp\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShallowDeepCopyApp", "ShallowDeepCopyApp\ShallowDeepCopyApp.csproj", "{5C7BB74A-0CD5-486D-83BA-49479C53FCE4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractClassesApp", "AbstractClassesApp\AbstractClassesApp.csproj", "{BE754FC9-80CF-4D5E-87DC-0C54C44D4FD9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -225,6 +227,10 @@ Global
 		{5C7BB74A-0CD5-486D-83BA-49479C53FCE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5C7BB74A-0CD5-486D-83BA-49479C53FCE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5C7BB74A-0CD5-486D-83BA-49479C53FCE4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE754FC9-80CF-4D5E-87DC-0C54C44D4FD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE754FC9-80CF-4D5E-87DC-0C54C44D4FD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE754FC9-80CF-4D5E-87DC-0C54C44D4FD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE754FC9-80CF-4D5E-87DC-0C54C44D4FD9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
