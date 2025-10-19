@@ -20,9 +20,8 @@
             intList[1] = 10;                    // direct update using indexer
 
             Console.Write($"Array of {listLength} : ");
-            //foreach (int i in intList) Console.Write($"{i} ");
-            intList.ForEach(item => Console.Write(item));
-            Console.WriteLine("\n=============");
+            //foreach (int i in intList) Console.Write($"{i} "); Console.WriteLine();
+            intList.ForEach(item => Console.Write($"{item} ")); Console.WriteLine();
 
             // LinkedList
             var list = new LinkedList<string>();
@@ -33,7 +32,20 @@
             list.Last!.Previous!.Previous!.Value = "AUEB";
             list.First!.Next!.Next!.Value = "Coding Factory";
 
-            foreach (string s in list) Console.WriteLine(s);
+            foreach (string s in list) Console.Write($"{s} "); Console.WriteLine();
+
+            // Dictionaries <K,V>
+            var words = new Dictionary<int, string>();
+            words.Add(1, "Hello");
+            words[2] = "AUEB";
+            words[2] = "Coding-Factory";
+            words.Remove(1);
+
+            foreach (var keyValue in words)
+            {
+                Console.WriteLine($"Key:{keyValue.Key}, Value:{keyValue.Value}");
+            }
+
         }
     }
 }
