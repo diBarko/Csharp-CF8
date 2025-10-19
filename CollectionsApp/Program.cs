@@ -41,11 +41,16 @@
             words[2] = "Coding-Factory";
             words.Remove(1);
 
-            foreach (var keyValue in words)
-            {
-                Console.WriteLine($"Key:{keyValue.Key}, Value:{keyValue.Value}");
-            }
+            foreach (var keyValue in words) Console.WriteLine($"Key:{keyValue.Key}, Value:{keyValue.Value}");
 
+            // Stack -- LIFO
+            var stack = new Stack<string>();
+            stack.Push("ABC-1234");
+            stack.Push("ABC-2345");
+            stack.Push("ABC-3456");
+            stack.Push("ABC-4567");
+            stack.Pop();
+            foreach (var item in stack) Console.WriteLine(item);
         }
     }
 }
