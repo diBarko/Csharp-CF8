@@ -81,6 +81,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfacesApp", "Interfaces
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DependencyInjectionApp", "DependencyInjectionApp\DependencyInjectionApp.csproj", "{F83720D4-13C2-4305-8566-B26C7C72C115}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CollectionsApp", "CollectionsApp\CollectionsApp.csproj", "{21D1DE3F-4262-456D-AB59-A951BE9A676C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -243,6 +245,10 @@ Global
 		{F83720D4-13C2-4305-8566-B26C7C72C115}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F83720D4-13C2-4305-8566-B26C7C72C115}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F83720D4-13C2-4305-8566-B26C7C72C115}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21D1DE3F-4262-456D-AB59-A951BE9A676C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21D1DE3F-4262-456D-AB59-A951BE9A676C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21D1DE3F-4262-456D-AB59-A951BE9A676C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21D1DE3F-4262-456D-AB59-A951BE9A676C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

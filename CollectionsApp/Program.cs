@@ -18,11 +18,22 @@
 
             int num = intList[1];               // read data
             intList[1] = 10;                    // direct update using indexer
+
             Console.Write($"Array of {listLength} : ");
-            foreach (int i in intList)
-            {
-                Console.Write($"{i} ");
-            }
+            //foreach (int i in intList) Console.Write($"{i} ");
+            intList.ForEach(item => Console.Write(item));
+            Console.WriteLine("\n=============");
+
+            // LinkedList
+            var list = new LinkedList<string>();
+            var item1 = list.AddFirst("CF1");
+            list.AddAfter(item1, "CF2");
+            var item8 = list.AddLast("CF8");
+            list.AddBefore(item8, "CF7");
+            list.Last!.Previous!.Previous!.Value = "AUEB";
+            list.First!.Next!.Next!.Value = "Coding Factory";
+
+            foreach (string s in list) Console.WriteLine(s);
         }
     }
 }
