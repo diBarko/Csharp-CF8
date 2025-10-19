@@ -62,6 +62,19 @@
             var firstCar = queue.Dequeue();
 
             //foreach (var item in queue) Console.WriteLine(item);
+
+            // Set
+            var s1 = new SortedSet<string>() { "Coding", "Factory", "AUEB" };   // Collection initializer
+            var s2 = new HashSet<string>() { "Coding", "Hello", "World" };
+
+            s1.Add("Hello");
+            s2.Add("World");    // this will fail because sets are unique
+            s2.Add("AUEB");
+
+            s1.ExceptWith(s2);  // removes from s1, elements matched from s2
+            s1.UnionWith(s2);
+
+            foreach (string word in s1) Console.Write($"{word} ");
         }
     }
 }
