@@ -1,4 +1,6 @@
-﻿namespace CollectionsApp
+﻿using CollectionsApp.Model;
+
+namespace CollectionsApp
 {
     internal class Program
     {
@@ -74,7 +76,23 @@
             s1.ExceptWith(s2);  // removes from s1, elements matched from s2
             s1.UnionWith(s2);
 
-            foreach (string word in s1) Console.Write($"{word} ");
+            //foreach (string word in s1) Console.Write($"{word} ");
+
+            // Products
+            List<Product> products = new() {
+                new Product() { Description = "Milk", Price = 10, Quantity = 20 },
+                new Product() { Description = "Honey", Price = 20.5, Quantity = 18 },
+                new Product() { Description = "Eggs", Price = 4.5, Quantity = 50 }
+            };
+
+            products.Sort();
+            products.ForEach(Console.WriteLine);
+
+            products.Sort((p1, p2) => p1.Price.CompareTo(p2.Price));
+            products.ForEach(Console.WriteLine);
+
+            products.Sort((p1, p2) => p1.Quantity - p2.Quantity);
+            products.ForEach(Console.WriteLine);
         }
     }
 }
