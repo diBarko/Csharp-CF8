@@ -85,6 +85,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CollectionsApp", "Collectio
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LINQApp", "LINQApp\LINQApp.csproj", "{4327ECC9-6A88-47E2-AF53-963E1518C340}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileManagement", "FileManagement\FileManagement.csproj", "{614FB7DC-0137-4959-AD8B-2702FE0385C8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -255,6 +257,10 @@ Global
 		{4327ECC9-6A88-47E2-AF53-963E1518C340}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4327ECC9-6A88-47E2-AF53-963E1518C340}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4327ECC9-6A88-47E2-AF53-963E1518C340}.Release|Any CPU.Build.0 = Release|Any CPU
+		{614FB7DC-0137-4959-AD8B-2702FE0385C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{614FB7DC-0137-4959-AD8B-2702FE0385C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{614FB7DC-0137-4959-AD8B-2702FE0385C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{614FB7DC-0137-4959-AD8B-2702FE0385C8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
